@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class TwoSum {
 
     public static void main(String[] args) {
-        int[] numbers = {3,3};
-        int tgt = 6;
+        int[] numbers = {3,1,2,5};
+        int tgt = 8;
         int[] result = twoSum(numbers, tgt);
         
         System.out.println(Arrays.toString(result));
